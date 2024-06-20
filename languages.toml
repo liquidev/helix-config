@@ -1,0 +1,24 @@
+[[language]]
+name = "c"
+indent.tab-width = 4
+indent.unit = "\t"
+auto-format = true
+
+[[language]]
+name = "javascript"
+indent.tab-width = 4
+indent.unit = "    "
+formatter = { command = "prettier", args = ["--parser", "typescript"] }
+auto-format = true
+
+[[language]]
+name = "treehouse"
+scope = "text.treehouse"
+file-types = ["tree"]
+indent.tab-width = 4
+indent.unit = "    "
+soft-wrap.enable = true
+formatter = { command = "./target/debug/treehouse", args = ["fix", "-"] }
+
+[language-server.rust-analyzer.config]
+check.command = "clippy"

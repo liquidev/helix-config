@@ -1,0 +1,4 @@
+inherits = "ayu_evolve"
+
+"keyword.storage" = "orange"
+"keyword.storage.modifier" = "orange"

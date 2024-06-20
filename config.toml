@@ -1,0 +1,31 @@
+theme = "ayu_evolve2"
+
+[editor]
+completion-timeout = 5
+rulers = [100, 120]
+bufferline = "always"
+color-modes = true
+text-width = 100
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[keys.normal]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+
+[keys.insert]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+
+[keys.select]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
