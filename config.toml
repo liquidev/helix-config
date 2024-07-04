@@ -1,4 +1,4 @@
-theme = "ayu_evolve2"
+theme = "monokai_pro_spectrum"
 
 [editor]
 completion-timeout = 5
@@ -17,6 +17,9 @@ up = "no_op"
 down = "no_op"
 left = "no_op"
 right = "no_op"
+esc = ["keep_primary_selection", "collapse_selection"]
+tab = "buffer_picker"
+L = ["extend_to_line_end"]
 
 [keys.insert]
 up = "no_op"

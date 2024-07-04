@@ -5,6 +5,18 @@ indent.unit = "\t"
 auto-format = true
 
 [[language]]
+name = "cmake"
+indent.tab-width = 4
+indent.unit = "\t"
+auto-format = true
+
+[[language]]
+name = "cpp"
+indent.tab-width = 4
+indent.unit = "\t"
+auto-format = true
+
+[[language]]
 name = "javascript"
 indent.tab-width = 4
 indent.unit = "    "
@@ -22,3 +34,6 @@ formatter = { command = "./target/debug/treehouse", args = ["fix", "-"] }
 
 [language-server.rust-analyzer.config]
 check.command = "clippy"
+
+[language-server.clangd.config]
+args = ["--header-insertion=never"]
