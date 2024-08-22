@@ -1,0 +1,13 @@
+inherits = "ayu_mirage"
+
+"comment" = { fg = "#6B7A8B", modifiers = ["italic"] }
+"variable.builtin" = { fg = "cyan", modifiers = ["italic"] }
+"keyword.control" = "orange"
+"keyword.directive" = "orange"
+"constructor" = "blue"
+
+"ui.linenr" = "#4A505A"
+"ui.linenr.selected" = { fg = "#747B84", modifiers = ["bold"] }
+
+[palette]
+cyan = "#5ccfe6"

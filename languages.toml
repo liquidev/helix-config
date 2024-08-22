@@ -20,7 +20,7 @@ auto-format = true
 name = "javascript"
 indent.tab-width = 4
 indent.unit = "    "
-formatter = { command = "prettier", args = ["--parser", "typescript"] }
+formatter = { command = "prettier", args = ["--parser", "typescript", "--stdin-filepath", "dummy.js"] }
 auto-format = true
 
 [[language]]
