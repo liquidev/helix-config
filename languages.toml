@@ -24,6 +24,27 @@ formatter = { command = "prettier", args = ["--parser", "typescript", "--stdin-f
 auto-format = true
 
 [[language]]
+name = "typescript"
+indent.tab-width = 4
+indent.unit = "    "
+formatter = { command = "prettier", args = ["--parser", "typescript", "--stdin-filepath", "dummy.ts"] }
+auto-format = true
+
+[[language]]
+name = "css"
+indent.tab-width = 4
+indent.unit = "    "
+formatter = { command = "prettier", args = ["--parser", "css", "--stdin-filepath", "dummy.css"] }
+auto-format = true
+
+[[language]]
+name = "html"
+indent.tab-width = 4
+indent.unit = "    "
+formatter = { command = "prettier", args = ["--parser", "html", "--stdin-filepath", "dummy.html"] }
+auto-format = true
+
+[[language]]
 name = "treehouse"
 scope = "text.treehouse"
 file-types = ["tree"]

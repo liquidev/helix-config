@@ -6,6 +6,7 @@ inherits = "ayu_mirage"
 "keyword.directive" = "orange"
 "constructor" = "blue"
 
+"ui.background" = "default"
 "ui.linenr" = "#4A505A"
 "ui.linenr.selected" = { fg = "#747B84", modifiers = ["bold"] }
 
